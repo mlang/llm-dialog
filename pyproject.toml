@@ -1,0 +1,15 @@
+[project]
+name = "llm-dialog"
+version = "0.1"
+description = "A dialog Toolbox for LLM"
+license = "MIT"
+authors = [
+    { name = "Mario Lang", email = "mlang@blind.guru" }
+]
+dependencies = [
+    "llm>=0.26",
+    "prompt_toolkit",
+]
+
+[project.entry-points.llm]
+llm_dialog = "llm_dialog"
